@@ -1,0 +1,20 @@
+import movies from "../data/exampleMovie.js";
+
+class SearchMovie extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  //this.props.func
+  render() {
+    return React.createElement(
+      "form",
+      { onSubmit: this.props.search },
+      React.createElement("input", { type: "text", name: "textArea", onChange: this.props.textbar }),
+      React.createElement("input", { type: "submit", value: "Search" })
+    );
+  }
+}
+
+export default SearchMovie;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9jb21wb25lbnRzL1NlYXJjaE1vdmllLmpzeCJdLCJuYW1lcyI6WyJtb3ZpZXMiLCJTZWFyY2hNb3ZpZSIsIlJlYWN0IiwiQ29tcG9uZW50IiwiY29uc3RydWN0b3IiLCJwcm9wcyIsInJlbmRlciIsInNlYXJjaCIsInRleHRiYXIiXSwibWFwcGluZ3MiOiJBQUFBLE9BQU9BLE1BQVAsTUFBbUIseUJBQW5COztBQUdBLE1BQU1DLFdBQU4sU0FBMEJDLE1BQU1DLFNBQWhDLENBQXlDO0FBQ3ZDQyxjQUFZQyxLQUFaLEVBQW1CO0FBQ2pCLFVBQU1BLEtBQU47QUFDRDs7QUFFRDtBQUNBQyxXQUFTO0FBQ1AsV0FDRTtBQUFBO0FBQUEsUUFBTSxVQUFVLEtBQUtELEtBQUwsQ0FBV0UsTUFBM0I7QUFDRSxxQ0FBTyxNQUFLLE1BQVosRUFBbUIsTUFBSyxVQUF4QixFQUFtQyxVQUFVLEtBQUtGLEtBQUwsQ0FBV0csT0FBeEQsR0FERjtBQUVFLHFDQUFPLE1BQUssUUFBWixFQUFxQixPQUFNLFFBQTNCO0FBRkYsS0FERjtBQU1EO0FBYnNDOztBQWdCekMsZUFBZVAsV0FBZiIsImZpbGUiOiJTZWFyY2hNb3ZpZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBtb3ZpZXMgZnJvbSBcIi4uL2RhdGEvZXhhbXBsZU1vdmllLmpzXCI7XG5cblxuY2xhc3MgU2VhcmNoTW92aWUgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XG4gIGNvbnN0cnVjdG9yKHByb3BzKSB7XG4gICAgc3VwZXIocHJvcHMpXG4gIH1cblxuICAvL3RoaXMucHJvcHMuZnVuY1xuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxmb3JtIG9uU3VibWl0PXt0aGlzLnByb3BzLnNlYXJjaH0+XG4gICAgICAgIDxpbnB1dCB0eXBlPVwidGV4dFwiIG5hbWU9XCJ0ZXh0QXJlYVwiIG9uQ2hhbmdlPXt0aGlzLnByb3BzLnRleHRiYXJ9Lz5cbiAgICAgICAgPGlucHV0IHR5cGU9XCJzdWJtaXRcIiB2YWx1ZT1cIlNlYXJjaFwiLz5cbiAgICAgIDwvZm9ybT5cbiAgICApXG4gIH1cbn1cblxuZXhwb3J0IGRlZmF1bHQgU2VhcmNoTW92aWU7Il19
