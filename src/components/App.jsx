@@ -19,12 +19,17 @@ class App extends React.Component {
   }
   searchlist(e) {
     e.preventDefault();
-    var text = this.state.searchContent;
+    var text = this.state.searchContent.toLowerCase();
+    if(text === "") {
+      this.setState({
+        movies: exampleMovies
+      })
+      return;
+    }
     var movies = this.state.movies;
     var newMovieList = [];
     for(var i = 0; i < movies.length; i++) {
-      console.log(movies[i]);
-      if(movies[i]["title"].indexOf(text) >= 0) {
+      if(movies[i]["title"].toLowerCase().indexOf(text) >= 0) {
         newMovieList.push(movies[i]);
       }
     }
