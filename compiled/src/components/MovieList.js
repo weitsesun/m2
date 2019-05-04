@@ -1,0 +1,7 @@
+
+// class MovieList extends React.Component{
+
+// }
+
+// export default MovieList;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9jb21wb25lbnRzL01vdmllTGlzdC5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUNBOztBQUVBOztBQUVBIiwiZmlsZSI6Ik1vdmllTGlzdC5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuLy8gY2xhc3MgTW92aWVMaXN0IGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50e1xuXG4vLyB9XG5cbi8vIGV4cG9ydCBkZWZhdWx0IE1vdmllTGlzdDsiXX0=
