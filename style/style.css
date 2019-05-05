@@ -4,3 +4,10 @@
   background-color: rgb(123, 206, 231);
   text-align: center;
 }
+
+#movieTitle {
+  border-style: none none solid none;
+  border-width: 2px;
+  width: 50%;
+  margin: auto;
+}
